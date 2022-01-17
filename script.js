@@ -1,3 +1,5 @@
+/* Arquivo de scripts para o challenge do One #challengeonelogicabr*/
+
 // Este bloco cria o evento para ouvir o botão de Criptografar!, faz as verificações necessárias
 // e codifica a frase!
 var botaoCriptografar = document.querySelector("#btn-cripto");
