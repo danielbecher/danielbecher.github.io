@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: rgb(223, 223, 223);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -18,9 +18,7 @@ body {
 
 .titulo {
   padding: 15px;
-  width: 30vw;
-  margin: auto;
-
+  text-align:center;
 }
 
 .box {
@@ -37,7 +35,7 @@ body {
   border: 0;
   color: white;
   font-weight: bold;
-  background-color: blue;
+  background-color: rgb(51, 77, 192);
   padding: 10px;
   margin-top: 10px;
   border-radius: 0.5em;
