@@ -157,6 +157,7 @@ function escreverPerdeu(){
     pincel.fillStyle = '#F50b26';
     pincel.fillText('Você perdeu!', 650, 420);
     pincel.closePath();
+    addinit = false;
 }
 
 /* Função que escreve na tela que o jogador venceu o jogo */
@@ -168,6 +169,7 @@ function escreverGanhou(){
     pincel.fillStyle = '#3fd447';
     pincel.fillText('Você venceu, parabéns!', 650, 420);
     pincel.closePath();
+    addinit = false;
 }
 
 /*Função que desenha as linhas referentes as letras das palavras */
