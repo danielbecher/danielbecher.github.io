@@ -100,6 +100,11 @@ function verificaLetra(letra){
     }
 }
 
+function reiniciarJogo(){
+    var botaoReiniciar = document.querySelector('#iniciar-jogo');
+    botaoReiniciar.textContent = 'REINICIAR JOGO';
+}
+
 /*Função que verifica se a tecla pressionada é uma letra*/
 document.addEventListener('keydown', function(event) {
     if (addinit == true) {
