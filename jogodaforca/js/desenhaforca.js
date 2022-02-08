@@ -194,5 +194,3 @@ function desenhaLinhas(palavrasorteada){
         pincel.stroke();
     }
 }
-
-
