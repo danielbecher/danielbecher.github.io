@@ -41,6 +41,16 @@ footer p {
     font-weight: bold;
 }
 
+.itens, .itensprogresso {
+    padding: 15px 15px;
+}
+
+.itens:before {
+    content: "✅    ";
+}
+.itensprogresso:before {
+    content: "⌛    ";
+}
 .rodape p {
     padding: 10px;
     font-size: 12px;
