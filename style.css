@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    background: #dbdbdb;
+    text-align: center;
+}
+
+.cabecalho {
+    background: #FFFFFF;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.cabecalho h1 {
+    font-size: 40px;
+}
+
+.cabecalho, .miolo{
+    margin: auto;
+    width: 50%;
+}
+
+.rodape {
+    border-top: solid 0.5px;
+    margin: auto;
+    width: 50%;
+}
+
+.cabecalho p, .miolo p {
+    padding: 15px;
+}
+
+.miolo {
+    margin-top: 40px;
+    background: linear-gradient(#FEFEFE, #dbdbdb);
+}
+
+.miolo > p {
+    font-weight: bold;
+}
+
+.rodape p {
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+a {
+    color: #2666bf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2691bf;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #2666bf;
+}
