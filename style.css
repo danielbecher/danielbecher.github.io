@@ -1,10 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-footer p {
-    background: #dbdbdb;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cabecalho {
@@ -15,6 +10,7 @@ footer p {
 
 .cabecalho h1 {
     font-size: 40px;
+    vertical-align: center;
 }
 
 .cabecalho, .miolo{
@@ -22,14 +18,26 @@ footer p {
     width: 50%;
 }
 
-.rodape {
-    border-top: solid 0.5px;
-    margin: auto;
-    width: 50%;
+.fotoperfil {
+    width: 180px;
+}
+.cabecalho img {
+    padding-bottom: 20px;
+}
+
+.cabecalho li {
+    padding: 0 5px 0 5px;
+    display: inline-block;
 }
 
 .cabecalho p, .miolo p {
+    font-size: 17px;
     padding: 15px;
+}
+
+.icones {
+    width: 30px;
+    height: 30px;
 }
 
 .miolo {
@@ -41,22 +49,40 @@ footer p {
     font-weight: bold;
 }
 
-.itens, .itensprogresso {
+.itens, .itensprogresso, .itensgithub {
     padding: 15px 15px;
 }
 
 .itens:before {
-    content: "✅    ";
+    content: "✅ ";
 }
+
 .itensprogresso:before {
-    content: "⌛    ";
+    content: "⌛ ";
 }
+
+.itensgithub:before {
+    content: url("icone-github.png");
+}
+
+.rodape {
+    border-top: solid 0.5px;
+    margin: auto;
+    width: 50%;
+}
+
+footer p {
+    background: #dbdbdb;
+    text-align: center;
+}
+
 .rodape p {
     padding: 10px;
     font-size: 12px;
     text-align: left;
 }
 
+/* CSS dos links */
 a {
     color: #2666bf;
     text-decoration: none;
