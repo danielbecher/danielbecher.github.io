@@ -96,3 +96,9 @@ a:hover {
 a:visited {
     color: #2666bf;
 }
+
+/* CSS para responsividade */
+@media screen and (max-width: 480px) {
+    .cabecalho, .rodape, .miolo {
+        width: auto;
+}
