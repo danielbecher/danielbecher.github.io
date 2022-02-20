@@ -62,7 +62,7 @@ body {
 }
 
 .itensgithub:before {
-    content: url("icone-github.png");
+    content: url("../img/icone-github.png");
 }
 
 .rodape {
@@ -101,4 +101,5 @@ a:visited {
 @media screen and (max-width: 480px) {
     .cabecalho, .rodape, .miolo {
         width: auto;
+    }
 }
