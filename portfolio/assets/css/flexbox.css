@@ -6,7 +6,35 @@
 
 .menu-lista {
     display: flex;
-    width: 80%;
-    margin-right: 20px;
+    width: 700px;
     justify-content: space-around;
 }
+
+.titulo .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-div {
+    display: flex;
+    flex-grow: 1;
+    height: auto;
+    align-items: center;
+}
+
+.titulo-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.titulo-lista {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foto-perfil {
+    display: flex;
+    flex-grow: 1;
+}
+

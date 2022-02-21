@@ -2,14 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/flexbox.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
     <title>Portfolio - Daniel Becher</title>
 </head>
 <body>
 
-    <section class="menu">
+    <section class="menu container">
         <h1 class="menu-titulo">Daniel Clóvis Becher</h1>
         <nav>
             <ul class="menu-lista">
@@ -23,40 +25,115 @@
         </nav>
     </section>
 
-    <section class="titulo">
-        <h2>Olá! Meu nome é Daniel Becher e eu quero me tornar desenvolvedor!</h2>
-        <h3>Estou cursando Análise e Desenvolvimento de Sistemas e participando da Formação ONE na Alura.</h3>
-        <img src="./assets/img/foto.jpg">
-        <ul>
-            <li><a href="github">Github</a></li>
-            <li><a href="Linkedin">Linkedin</a></li>
-            <li><a href="Instagram">Instagram</a></li>
-            <li><a href="CV">Curriculo</a></li>
-        </ul>
+    <section class="titulo container">
+        <div class="titulo-div">
+            <div class="titulo-container">
+                <h2>Olá! Meu nome é Daniel Becher e eu quero me tornar desenvolvedor!</h2>
+                <h3>Estou cursando Análise e Desenvolvimento de Sistemas e participando da Formação ONE na Alura.</h3>
+                <ul class="titulo-lista">
+                    <li class="titulo-lista-item"><a href="github">Github</a></li>
+                    <li class="titulo-lista-item"><a href="Linkedin">Linkedin</a></li>
+                    <li class="titulo-lista-item"><a href="Instagram">Instagram</a></li>
+                    <li class="titulo-lista-item"><a href="CV">Curriculo</a></li>
+                </ul>
+            </div>
+            <img class="foto-perfil" src="./assets/img/foto.jpg">
+        </div>
     </section>
 
-    <section class="about">
-        <h2>Sobre mim</h2>
-        Meu nome é Daniel, moro em São José - SC, tenho 38 anos e há 20 eu trabalho com TI. Trabalho atualmente com hospedagem de sites (criei uma pequena empresa em 2009) e sou Gerente de TI em outra, no ramo de engenharia rodoviária. E no ano em que minha carreira completa duas décadas, pretendo começar uma transição para a área do desenvolvimento. Para que isso aconteça, atuo em três diferentes frentes: estou cursando Tecnlógo EAD de Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul, fazendo a Formação One (One Next Education), parceria da Oracle com a Alura e estudando, quando sobra tempo, o stack Python + Django + Django Rest Framework.
+    <section class="about container">
+        <h2 class="sobremim">Sobre mim</h2>
+        <p>Meu nome é Daniel, moro em São José - SC, tenho 38 anos e há 20 eu trabalho com TI. Trabalho atualmente com hospedagem de sites (criei uma pequena empresa em 2009) e sou Gerente de TI em outra, no ramo de engenharia rodoviária. E no ano em que minha carreira completa duas décadas, pretendo começar uma transição para a área do desenvolvimento. Para que isso aconteça, atuo em três diferentes frentes: estou cursando Tecnlógo EAD de Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul, fazendo a Formação One (One Next Education), parceria da Oracle com a Alura e estudando, quando sobra tempo, o stack Python + Django + Django Rest Framework.</p>
     </section>
 
-    <section class="soft">
+    <section class="skillssection container">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skills_item caixa">
+                <ul class="skills_lista">
+                    <li class="skills_imagem"> <img src="./assets/img/html5.png"></li>
+                    <li class="skills_titulo"><h4>HTML 5</h4></li>
+                </ul>
+            </div>
+            <div class="skills_item caixa">
+                <ul class="skills_lista">
+                    <li class="skills_imagem"><img src="./assets/img/css3.png"></li>
+                    <li class="skills_titulo"><h4>CSS 3</h4></li>
+                </ul>
+            </div>
+            <div class="skills_item caixa">
+                <ul class="skills_lista">
+                    <li class="skills_imagem"><img src="./assets/img/javascript.png"></li>
+                    <li class="skills_titulo"><h4>Javascript</h4></li>
+                </ul>
+            </div>
+            <div class="skills_item caixa">
+                <ul class="skills_lista">
+                    <li class="skills_imagem"><img src="./assets/img/python.png"></li>
+                    <li class="skills_titulo"><h4>Python</h4></li>
+                </ul>
+            </div>
+            <div class="skills_item caixa">
+                <ul class="skills_lista">
+                    <li class="skills_imagem"><img src="./assets/img/mysql.png"></li>
+                    <li class="skills_titulo"><h4>MySQL</h4></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="hobbiessection container">
+        <h2>Hobbies</h2>
+        <div class="hobbies">
+            <div class="hobbies_item caixa">
+                <ul class="hobbies_lista">
+                    <li class="hobbies_imagem"> <img src="./assets/img/cooking.png"></li>
+                    <li class="hobbies_titulo"><h4>Cozinhar</h4></li>
+                </ul>
+            </div>
+            <div class="hobbies_item caixa">
+                <ul class="hobbies_lista">
+                    <li class="hobbies_imagem"><img src="./assets/img/tvseries.png"></li>
+                    <li class="hobbies_titulo"><h4>Assistir séries</h4></li>
+                </ul>
+            </div>
+            <div class="hobbies_item caixa">
+                <ul class="hobbies_lista">
+                    <li class="hobbies_imagem"><img src="./assets/img/music.png"></li>
+                    <li class="hobbies_titulo"><h4>Ouvir música</h4></li>
+                </ul>
+            </div>
+            <div class="hobbies_item caixa">
+                <ul class="hobbies_lista">
+                    <li class="hobbies_imagem"><img src="./assets/img/games.png"></li>
+                    <li class="hobbies_titulo"><h4>Jogar Online</h4></li>
+                </ul>
+            </div>
+            <div class="hobbies_item caixa">
+                <ul class="hobbies_lista">
+                    <li class="hobbies_imagem"><img src="./assets/img/fishing.png"></li>
+                    <li class="hobbies_titulo"><h4>Pescar</h4></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 
     </section>
 
-    <section class="cursos">
+    <section class="cursos container">
 
     </section>
 
-    <section class="experiencia">
+    <section class="experiencia container">
 
     </section>
 
-    <section class="contato">
+    <section class="contato container">
 
     </section>
 
-    <section class="footer">
+    <section class="footer container">
         <p>Desenvolvido por Daniel Becher com a ajuda de uma equipe foda!</p>
         <p>2022</p>
     </section>

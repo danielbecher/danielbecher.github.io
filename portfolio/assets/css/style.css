@@ -1,0 +1,85 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+    ;
+}
+
+.container {
+	width: 65%;
+	margin: 0 auto;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.menu-lista-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-lista-item a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.menu-titulo {
+    font-size: 20px;
+}
+
+.menu-titulo:before {
+    content: url("../../assets/img/star.png");
+}
+
+.foto-perfil {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: #EAF2FD;
+    height: auto;
+    padding: 40px 40px;
+}
+
+.titulo {
+    margin: 60px auto;
+}
+
+.titulo h2 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.sobremim {
+    text-align: left;
+}
+
+.titulo li {
+    font-size: 22px;
+}
+
+.titulo-lista-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.titulo-lista-item a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.titulo-lista-item:after {
+    content: url('../../assets/img/seta.png')
+}
