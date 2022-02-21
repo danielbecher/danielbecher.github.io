@@ -36,3 +36,12 @@
     /* flex-wrap: wrap; */
     flex-flow: column wrap;
 }
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 20%;
+}
