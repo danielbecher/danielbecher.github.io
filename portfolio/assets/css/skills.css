@@ -59,6 +59,14 @@
 }
 
 .cursos_titulo h4 {
+    font-size: 20px;
+    color: #464646;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.cursos_subtitulo {
     font-size: 16px;
     color: #464646;
     text-align: left;
