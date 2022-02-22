@@ -42,10 +42,10 @@ li {
     border-radius: 50%;
 }
 
-.about, .cursos {
+.about, .cursossection {
     background-color: #EAF2FD;
     height: auto;
-    padding: 40px 40px;
+    padding: 20px 40px;
 }
 
 .titulo {
