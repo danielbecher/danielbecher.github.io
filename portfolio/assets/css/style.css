@@ -42,7 +42,7 @@ li {
     border-radius: 50%;
 }
 
-.about {
+.about, .cursos {
     background-color: #EAF2FD;
     height: auto;
     padding: 40px 40px;
@@ -61,7 +61,7 @@ h2 {
     text-align: center;
 }
 
-.sobremim {
+.sobremim, .cursos {
     text-align: left;
 }
 

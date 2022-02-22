@@ -50,3 +50,26 @@
     margin-top: 30px;
     margin-left: 10px;
 }
+
+.cursos {
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    height: 286px;
+}
+
+.cursos_titulo h4 {
+    font-size: 16px;
+    color: #464646;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.cursos_imagem img {
+    padding-left: 10px;
+    height: 130px;
+    width: 192px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
