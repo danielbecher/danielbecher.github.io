@@ -56,9 +56,13 @@ li {
     font-size: 52px;
 }
 
+.titulos-pagina {
+    text-align: center;
+}
+
 h2 {
     font-size: 32px;
-    text-align: center;
+    text-align: left;
 }
 
 .sobremim, .cursos {
