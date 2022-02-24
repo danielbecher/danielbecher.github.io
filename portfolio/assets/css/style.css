@@ -1,14 +1,9 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #F5F5F5;
-    ;
+    width: 80%;
+	margin: 0 auto;
 }
-
-.container {
-	width: 65%;
-	margin: 3rem auto;
-}
-
 ul {
     padding-inline-start: 0;
 }
@@ -112,3 +107,9 @@ h2 {
 	font-size: .8em;
 	outline: none;
 }*/
+
+.rodape {
+    color: #333;
+    text-transform: lowercase;
+    text-align: center;
+}
