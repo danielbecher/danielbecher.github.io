@@ -27,16 +27,6 @@ li {
     font-size: 20px;
 }
 
-.menu-titulo:before {
-    content: url("../../assets/img/star.png");
-}
-
-.foto-perfil {
-    width: 368px;
-    height: 368px;
-    border-radius: 50%;
-}
-
 .about, .cursossection {
     background-color: #EAF2FD;
     height: auto;
@@ -47,9 +37,6 @@ li {
     margin: 60px auto;
 }
 
-.titulo h2 {
-    font-size: 52px;
-}
 
 .titulos-pagina {
     text-align: center;
@@ -97,19 +84,44 @@ h2 {
 	line-height: 2;
 }
 
-/*.projeto-sobre-botao-repo {
-	border-radius: 8px;
-	background-color: #ec6e5a;
-	display: block;
-	color: #FFF;
-	border: none;
-	height: 50px;
-	font-size: .8em;
-	outline: none;
-}*/
-
 .rodape {
     color: #333;
     text-transform: lowercase;
     text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .foto-perfil {
+        width: 150x;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .titulo h2 {
+        font-size: 20px;
+    }
+    
+    .titulo h3 {
+        font-size: 16px;
+    }
+}    
+
+@media screen and (min-width: 768px) {
+    .menu-titulo:before {
+        content: url("../../assets/img/star.png");
+    }
+    .foto-perfil {
+        width: 368px;
+        height: 368px;
+        border-radius: 50%;
+    }
+
+    .titulo h2 {
+        font-size: 52px;
+    }
+    
+    .titulo h3 {
+        font-size: 24px;
+    }
+    
 }

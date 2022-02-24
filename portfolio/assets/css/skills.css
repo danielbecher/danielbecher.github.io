@@ -1,15 +1,3 @@
-.caixa {
-    background: white;
-    margin: 20px 5px;
-}
-.skills {
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 100%;
-    height: 174px;
-}
-
 .skills_titulo h4 {
     font-size: 16px;
     color: #464646;
@@ -25,15 +13,6 @@
     margin-top: 30px;
     margin-left: 10px;
 }
-
-.hobbies {
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 100%;
-    height: 174px;
-}
-
 
 .hobbies_titulo h4 {
     font-size: 16px;
@@ -51,33 +30,108 @@
     margin-left: 10px;
 }
 
-.cursos {
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    height: auto;
+@media screen and (min-width: 0) {
+    .caixa {
+        background: white;
+        margin: 10px 5px;
+    }
+
+    .skills {
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: 50% 50%;
+        height: auto;
+    }
+
+    .hobbies {
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: 50% 50%;
+        height: auto;
+    }
+
+    .cursos {
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: 100%;
+        height: auto;
+    }   
+
+    .cursos_titulo h4 {
+        font-size: 16px;
+        color: #464646;
+        text-align: left;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+    
+    .cursos_subtitulo {
+        font-size: 12px;
+        color: #464646;
+        text-align: left;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+    
+    .cursos_imagem img {
+        padding-left: 10px;
+        height: 100px;
+        width: 122px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }    
 }
 
-.cursos_titulo h4 {
-    font-size: 20px;
-    color: #464646;
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
+@media screen and (min-width: 768px) {
+    .caixa {
+        background: white;
+        margin: 20px 5px;
+    }
+    
+    .skills {
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        height: 174px;
+    }
 
-.cursos_subtitulo {
-    font-size: 16px;
-    color: #464646;
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
+    .hobbies {
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        height: 174px;
+    }
 
-.cursos_imagem img {
-    padding-left: 10px;
-    height: 130px;
-    width: 192px;
-    margin-top: 30px;
-    margin-left: 10px;
+    .cursos {
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        height: auto;
+    }  
+
+    .cursos_titulo h4 {
+        font-size: 20px;
+        color: #464646;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .cursos_subtitulo {
+        font-size: 16px;
+        color: #464646;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .cursos_imagem img {
+        padding-left: 10px;
+        height: 130px;
+        width: 192px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }    
 }

@@ -1,0 +1,61 @@
+/* Flexbox para seção experiência */
+.experiencia {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.experiencia__imagem {
+    display: flex;
+    width: 60%;
+}
+
+.experiencia__sobre___titulo {
+    display: flex;
+    font-size: 22px;
+}
+
+.experiencia__sobre___descricao {
+    display: flex;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.experiencia__sobre__lista {
+    display: flex;
+}
+
+.experiencia__sobre___itens {
+    display: flex;
+}
+
+.experiencia__botao--repo {
+    font-size: 16px;
+    color: #2A7AE4;
+    padding: 1rem 2rem;
+    border-color: #2A7AE4;
+}
+
+.experiencia__botao--demo {
+    font-size: 16px;
+    color: #fdfdfd;
+    padding: 1rem 2rem;
+    background-color: #2A7AFF;
+    border-color: #2A7AE4;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    
+}    
+
+@media screen and (min-width: 768px) {
+    .experiencias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+ 
+    
+}
