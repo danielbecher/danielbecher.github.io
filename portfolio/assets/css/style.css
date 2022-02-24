@@ -6,7 +6,7 @@ body {
 
 .container {
 	width: 65%;
-	margin: 0 auto;
+	margin: 3rem auto;
 }
 
 ul {
@@ -102,7 +102,7 @@ h2 {
 	line-height: 2;
 }
 
-.projeto-sobre-botao-repo {
+/*.projeto-sobre-botao-repo {
 	border-radius: 8px;
 	background-color: #ec6e5a;
 	display: block;
@@ -111,4 +111,4 @@ h2 {
 	height: 50px;
 	font-size: .8em;
 	outline: none;
-}
+}*/
