@@ -4,24 +4,9 @@ body {
     width: 50%;
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-}
-
-.infos {
-    display: flex;
-    flex-direction: column;
-    background: #Fdfdfd;
-}
-
 .infos h1 {
     font-size: 45px;
     margin: 2rem auto;
-}
-
-.avatar {
-    width: 250px;
 }
 
 .infos img {
@@ -101,8 +86,31 @@ a:visited {
 }
 
 /* CSS para responsividade */
-@media screen and (max-width: 480px) {
+
+@media screen and (min-width: 0) {
+    .avatar {
+        width: 150px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
     .infos, .rodape, .miolo {
         width: auto;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .infos {
+        display: flex;
+        flex-direction: column;
+        background: #Fdfdfd;
+    }
+
+    .avatar {
+        width: 250px;
     }
 }
