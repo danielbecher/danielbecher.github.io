@@ -8,6 +8,16 @@ ul {
     padding-inline-start: 0;
 }
 
+li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: left;
+}
+
 .menu-lista-item a {
     color: #333;
     text-decoration: none;
@@ -18,10 +28,6 @@ ul {
     text-decoration: underline;
 }
 
-li {
-    list-style-type: none;
-    padding-right: 20px;
-}
 
 .menu-titulo {
     font-size: 20px;
@@ -37,14 +43,16 @@ li {
     margin: 60px auto;
 }
 
+.titulo-pagina {
+    width: 95%;
+}
+
+.subtitulo-pagina {
+    width: 98%;
+}
 
 .titulos-pagina {
     text-align: center;
-}
-
-h2 {
-    font-size: 32px;
-    text-align: left;
 }
 
 .sobremim, .cursos {

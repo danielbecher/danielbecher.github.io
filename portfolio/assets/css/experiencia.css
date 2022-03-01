@@ -77,10 +77,6 @@
     }
 
     .experiencia__imagem:hover {
-        top: -4px;
-        box-shadow:0 5px 5px #7bacd3;
-        transition: all .4s ease-in-out;
-        transform: scale(1.1); 
 
     }
 

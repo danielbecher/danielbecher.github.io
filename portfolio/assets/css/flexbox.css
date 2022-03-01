@@ -1,17 +1,14 @@
 .titulo-container {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }  
 
 .titulo-lista {
     display: flex;
-    justify-content: flex-start;
 }
 
 .foto-perfil {
     display: flex;
-    flex-grow: 1;
 }
 
 @media screen and (min-width: 0) {
@@ -48,7 +45,7 @@
     }
 
     .menu-lista {
-        width: 700px;
+        width: auto;
     }
     
     .menu-lista-item {
@@ -57,7 +54,6 @@
     
     .titulo-div {
         display: flex;
-        height: auto;
         align-items: center;
     }    
 

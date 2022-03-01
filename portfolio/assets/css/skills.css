@@ -133,5 +133,11 @@
         width: 192px;
         margin-top: 30px;
         margin-left: 10px;
+    }
+    
+    .cursos_imagem:hover {
+        top: -4px;
+        transition: all .4s ease-in-out;
+        transform: scale(1.1); 
     }    
 }
