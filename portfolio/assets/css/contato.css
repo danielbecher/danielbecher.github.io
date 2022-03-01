@@ -70,8 +70,7 @@
     }
     
     .contato__imagem {
-        justify-content: right;
-        width: 33%;
+        width: 40%;
     }    
 
     .contato__input, .contato__textarea {
@@ -79,9 +78,7 @@
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-        margin: 8px 0px;
-        width: 540px;
-        height: 56px;
+        
         top: 0px;
         background: #FFFFFF;
         border-color: #d3c7c7;
@@ -98,7 +95,7 @@
         border-color: #2A7AE4;
         margin-top: 1.2rem;
         text-decoration: none;
-        width: 40%;
+        width: 100%;
     }
 
     .contato__titulo {
