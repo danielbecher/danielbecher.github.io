@@ -42,25 +42,28 @@ const mensagensDeErro = {
         customError: 'O CPF digitado não é válido.' 
     },
     cep: {
-        valueMissing: 'O campo CEP não pode estar vazio',
+        valueMissing: 'O campo de CEP não pode estar vazio.',
         patternMismatch: 'O CEP digitado não é válido.',
         customError: 'Não foi possível buscar o CEP.'
     },
     logradouro: {
-        valueMissing: 'O logradouro não pode estar vazio'
+        valueMissing: 'O campo de logradouro não pode estar vazio.'
     },
     cidade: {
-        valueMissing: 'A cidade não pode estar vazia'
+        valueMissing: 'O campo de cidade não pode estar vazio.'
     },
     estado: {
-        valueMissing: 'O estado não pode estar vazio'
+        valueMissing: 'O campo de estado não pode estar vazio.'
+    },
+    preco: {
+        valueMissing: 'O campo de preço não pode estar vazio.'
     }
 }
 
 const validadores = {
     dataNascimento:input => validaDataNascimento(input),
     cpf:input => validaCPF(input),
-    cep: input => recuperarCEP(input)
+    cep:input => recuperarCEP(input)
 }
 
 function mostraMensagemDeErro(tipoDeInput, input) {
@@ -160,12 +163,12 @@ function confirmaDigito(soma) {
 
 function recuperarCEP(input) {
     const cep = input.value.replace(/\D/g, '')
-    const url = 'https://viacep.com.br/ws/${cep}/json'
+    const url = `https://viacep.com.br/ws/${cep}/json/`
     const options = {
         method: 'GET',
         mode: 'cors',
         headers: {
-            'content-type': 'application/json; charset=UTF-8'
+            'content-type': 'application/json;charset=utf-8'
         }
     }
 
@@ -179,15 +182,19 @@ function recuperarCEP(input) {
                     return
                 }
                 input.setCustomValidity('')
+                preencheCamposComCEP(data)
+                return
             }
         )
-    
     }
 }
 
+function preencheCamposComCEP(data) {
+    const logradouro = document.querySelector('[data-tipo="logradouro"]')
+    const cidade = document.querySelector('[data-tipo="cidade"]')
+    const estado = document.querySelector('[data-tipo="estado"]')
 
-// 123 456 789 09
-
-// let soma = (11 * 1) + (10 * 2) + (9 * 3) ... (2 * 0)
-
-// let digitoVerificador = 11 - (soma % 11)
+    logradouro.value = data.logradouro
+    cidade.value = data.localidade
+    estado.value = data.uf
+}
