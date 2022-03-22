@@ -19,11 +19,25 @@
         width: 100%;
     }
 
-    .contato__input, .contato__textarea {
+    .contato__input {
         flex: none;
         margin: 8px 0px;
         width: 100%;
         height: 40px;
+        top: 0px;
+        background: #FFFFFF;
+        border-color: #d3c7c7;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 5px 5px;
+    }
+
+    .contato__textarea {
+        flex: none;
+        margin: 8px 0px;
+        width: 100%;
+        height: 100px;
         top: 0px;
         background: #FFFFFF;
         border-color: #d3c7c7;

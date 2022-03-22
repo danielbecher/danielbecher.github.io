@@ -1,5 +1,4 @@
-const inputs = document.querySelectorAll('input')
-const textareas = document.getElementById('#mensagem')
+const inputs = document.querySelectorAll('input, textarea')
 
 inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
@@ -107,12 +106,15 @@ function verificaAssunto(input) {
 
 function verificaMensagem(input) {
     let mensagem = ''
-    console.log(taxtareas.target.value)
+    
+    console.log(input.value)
+    console.log(input.value.length)
+
     if (input.value.length >= 300){
         mensagem = 'Este campo não permite mais de 300 caracteres'
     }
 
-    if (!input.value.lenght) {
+    if (!input.value.length) {
         mensagem = 'Este campo não pode estar vazio'
     }
 
