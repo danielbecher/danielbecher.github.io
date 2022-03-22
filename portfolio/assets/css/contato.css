@@ -3,11 +3,16 @@
     display: flex;
 }
 
+.input-mensagem-erro {
+    display: none;
+}
+
 @media screen and (min-width: 0) {
     .formcontato {
         background-color: #EAF2FD;
         display: block;
         margin-top: 1rem;
+        border-radius: 4px;
     }
 
     .contato {
@@ -45,6 +50,7 @@
         border-left: none;
         border-right: none;
         padding: 5px 5px;
+        resize: none;
     }
     
     .contato__botao {
@@ -88,11 +94,9 @@
     }    
 
     .contato__input, .contato__textarea {
-        flex: none;
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-        
         top: 0px;
         background: #FFFFFF;
         border-color: #d3c7c7;

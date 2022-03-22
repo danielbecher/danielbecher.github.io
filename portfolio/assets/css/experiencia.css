@@ -11,9 +11,15 @@
     }
     
     .experiencia__imagem {
-        display: block;
-        width: 100%;
+        width: 600px;
+        height: 400px;
+        border-radius: 12px;
     }
+
+    .experiencia__sobre {
+        align-items: center;
+    }
+
     .experiencia__sobre___titulo {
         display: block;
         font-size: 16px;
@@ -71,15 +77,6 @@
         display: flex;
     }
     
-    .experiencia__imagem {
-        display: flex;
-        width: 60%;
-    }
-
-    .experiencia__imagem:hover {
-
-    }
-
     .experiencia__sobre___titulo {
         display: flex;
         font-size: 22px;

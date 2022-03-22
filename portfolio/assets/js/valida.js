@@ -1,8 +1,10 @@
 const inputs = document.querySelectorAll('input, textarea')
+const enviar = document.querySelector('[name="enviar"]')
 
 inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
         valida(evento.target)
+        verificaCamposVazios()
     })
 })
 
@@ -12,13 +14,20 @@ function valida(input) {
     if(validadores[tipoDeInput]) {
         validadores[tipoDeInput](input)
     }
+}
 
-    if(input.validity.valid) {
-        input.parentElement.querySelector('.input-mensagem-erro').innerHTML = ''
-        
+function verificaCamposVazios() {
+    let campoNome = document.querySelector("[name='nome']")
+    let campoEmail = document.querySelector("[name='email']")
+    let campoAssunto = document.querySelector("[name='assunto'")
+    let campoMensagem = document.querySelector("[name='mensagem'")
+
+    if (campoNome.value != '' && campoEmail.value != '' && campoAssunto.value != '' && campoMensagem.value != '') {
+        enviar.disabled = false
     } else {
-        input.parentElement.querySelector('.input-mensagem-erro').innerHTML = mostraMensagemDeErro(tipoDeInput, input)
+        enviar.disabled = true
     }
+
 }
 
 const validadores = {
@@ -89,6 +98,7 @@ function verificaEmail(input) {
     }
 
     input.setCustomValidity(mensagem)
+    
 }
 
 function verificaAssunto(input) {
@@ -106,9 +116,6 @@ function verificaAssunto(input) {
 
 function verificaMensagem(input) {
     let mensagem = ''
-    
-    console.log(input.value)
-    console.log(input.value.length)
 
     if (input.value.length >= 300){
         mensagem = 'Este campo não permite mais de 300 caracteres'
