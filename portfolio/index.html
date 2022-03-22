@@ -202,12 +202,26 @@
                 <h2 class="contato__titulo">Contato</h2>
                 <h3 class="contato__descricao">Quer entrar em contato comigo?</h3>
                 <h3 class="contato__descricao">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                <form class="formulario">
-                    <input class="contato__input" type="text" id="nome" placeholder="Nome">
-                    <input class="contato__input" type="text" id="email" placeholder="E-mail">
-                    <input class="contato__input" type="text" id="assunto" placeholder="Assunto">
-                    <textarea class="contato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                    <button class="contato__botao">Enviar mensagem</button>
+                <form action="#" class="formulario">
+                    <fieldset>
+                        <div class="input-container">
+                            <input class="contato__input" type="text" name="nome" id="nome" placeholder="Nome" data-tipo="nome">
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                           <div class="input-container">
+                           <input class="contato__input" type="text" name="email" id="email" placeholder="E-mail" data-tipo="email">
+                           <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                          <div class="input-container">
+                          <input class="contato__input" type="text" name="assunto" id="assunto" placeholder="Assunto" data-tipo="assunto">
+                          <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                          <div class="input-container">
+                          <textarea class="contato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" data-tipo="mensagem"></textarea>
+                          <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <button class="contato__botao">Enviar mensagem</button>
+                    </fieldset>
                 </form>
             </div>
         </div>
@@ -219,5 +233,6 @@
             <p>2022</p>
         </div>
     </section>
+    <script src="assets/js/valida.js" type="module"></script>
 </body>
 </html>
