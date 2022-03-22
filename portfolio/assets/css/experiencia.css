@@ -52,7 +52,7 @@
     
     .experiencia__sobre___itens {
         display: block;
-    }
+    }    
 }    
 
 @media screen and (min-width: 768px) {
@@ -63,12 +63,18 @@
     }   
 
     .experiencia {
-        align-items: center;
         display: flex;
+        align-items: center;
+        flex-direction: column;
         justify-content: space-around;
         margin: 2rem 0;
     }
 
+    .experiencia__imagem {
+        width: 100%;
+        height: 200px;
+        border-radius: 12px;
+    }
     .experiencia__sobre__lista {
         display: flex;
     }
