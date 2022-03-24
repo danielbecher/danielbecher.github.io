@@ -4,6 +4,7 @@ body {
     width: 70%;
 	margin: 0 auto;
 }
+
 ul {
     padding-inline-start: 0;
 }
@@ -27,7 +28,6 @@ h2 {
     font-size: 18px;
     text-decoration: underline;
 }
-
 
 .menu-titulo {
     font-size: 20px;
@@ -98,27 +98,24 @@ h2 {
     text-align: center;
 }
 
-@media screen and (min-width: 0) {
-    .foto-perfil {
-        width: 150x;
-        height: 150px;
-        border-radius: 50%;
-    }
+.titulo h2 {
+    font-size: 20px;
+}
 
-    .titulo h2 {
-        font-size: 20px;
-    }
-    
-    .titulo h3 {
-        font-size: 16px;
-    }
-}    
+.titulo h3 {
+    font-size: 16px;
+}
 
-@media screen and (min-width: 768px) {
+.titulo-div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 450px) {
     .menu-titulo:before {
         content: url("../../assets/img/star.png");
     }
-    .foto-perfil {
+    .foto__perfil {
         width: 368px;
         height: 368px;
         border-radius: 50%;
@@ -130,6 +127,10 @@ h2 {
     
     .titulo h3 {
         font-size: 24px;
+    }  
+
+    .titulo-div {
+        display: flex;
+        flex-direction: row;
     }
-    
 }
