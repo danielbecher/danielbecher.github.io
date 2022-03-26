@@ -3,7 +3,7 @@
     display: flex;
 }
 
-@media screen and (min-width: 0) {
+@media (min-width: 0) {
     .formcontato {
         background-color: #03A9F5;
         display: block;
@@ -18,38 +18,39 @@
 
     .contato__redes--lista {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
     
     .contato__imagem {
-        width: 20px;
-        height: 20px;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
     }    
 
     .contato__input {
-        flex: none;
-        margin: 8px 0px;
-        width: 300px;
+        width: 80%;
         height: 40px;
-        background: transparent;
-        border-color: #d3c7c7;
-        border-top: none;
-        border-left: none;
-        border-right: none;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        outline: none !important;
+        border-width: 0 0 0.1em;
+        border-color: #fff;
+        border-style: solid;
+        border-radius: 4px;
+        margin: 5px 5px;
     }
 
     .contato__textarea {
-        flex: none;
-        margin: 8px 0px;
-        width: 300px;
+        width: 95%;
         height: 100px;
-        top: 0px;
         background: #FFFFFF;
-        padding: 5px 5px;
-        resize: none;
-        border: 0.1em solid #fff;
-        border-radius: 0.25em;
+        outline: none !important;
+        border-width: 0 0 0.1em;
+        border-color: #fff;
+        border-style: solid;
+        border-radius: 4px;
+        margin: 5px 5px;
     }
     
     .contato__botao {
@@ -60,15 +61,18 @@
         border-color: #2A7AE4;
         margin-top: 1.2rem;
         text-decoration: none;
-        width: 70%;
+        width: 250px;
+        margin: 4px 4px;
     }
 
     .contato__titulo {
         color: #fdfdfd;
-        font-size: 22px;
+        font-size: 20px;
+        text-align: center;
     }
     
     .contato__subtitulo {
+        display: none;
         color: #fdfdfd;
         font-size: 20px;
     }
@@ -79,7 +83,7 @@
     }
 }    
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .formcontato {
         background-color: #03A9F5;
         border-radius: 7px;
@@ -105,6 +109,7 @@
         flex-wrap: wrap;
         align-items: center;
     }
+    
     .contato__redes--item {
         display: flex;
         justify-content: space-around;

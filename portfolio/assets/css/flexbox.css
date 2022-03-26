@@ -11,30 +11,28 @@
     display: flex;
 }
 
-@media screen and (min-width: 0) {
-    .menu {
-        display: block;
-        justify-content: left;
-    }
+.menu {
+    display: block;
+    justify-content: left;
+}
 
-    .menu-lista {
-        width: 200px;
-    }
+.menu-lista {
+    width: 200px;
+}
 
-    .menu-lista-item {
-        padding: auto;
-    }
+.menu-lista-item {
+    padding: auto;
+}
 
-    .titulo-div {
-        display: block;
-        height: auto;
-    }   
-    
-    .menu-lista {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+.titulo-div {
+    display: block;
+    height: auto;
+}   
+
+.menu-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 @media screen and (min-width: 768px) {

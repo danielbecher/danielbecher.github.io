@@ -111,6 +111,8 @@ h2 {
     flex-direction: column;
 }
 
+
+
 @media screen and (min-width: 450px) {
     .menu-titulo:before {
         content: url("../../assets/img/star.png");

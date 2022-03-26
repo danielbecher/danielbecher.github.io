@@ -1,0 +1,25 @@
+@media (min-width: 0) {
+.experiencia__imagem {
+    width: 10%;
+    height: auto;
+    border-radius: 12px;
+}
+}
+
+.experiencia__sobre___titulo {
+    font-size: 12px;
+    color: red;
+}
+
+@media (min-width: 500px) {
+    .experiencia__imagem {
+        width: 600px;
+        height: 400px;
+        border-radius: 12px;
+    }
+
+    .experiencia__sobre___titulo {
+        font-size: 20px;
+        color: blue;
+    }
+}
