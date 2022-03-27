@@ -1,3 +1,7 @@
+.cursossection {
+    margin-top: 30px;
+}
+
 .skills_titulo h4 {
     font-size: 16px;
     color: #464646;
@@ -82,7 +86,7 @@
     }    
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .caixa {
         background: white;
         margin: 20px 5px;
@@ -108,7 +112,7 @@
         display: grid;
         grid-gap: .2rem;
         grid-template-columns: 33.33% 33.33% 33.33%;
-        height: auto;
+        height: 400px;
     }  
 
     .cursos_titulo h4 {

@@ -3,7 +3,7 @@
     display: flex;
 }
 
-@media (min-width: 0) {
+@media screen and (min-width: 0) {
     .formcontato {
         background-color: #03A9F5;
         display: block;
@@ -12,21 +12,21 @@
     }
 
     .contato {
-        display: block;
+        display: flex;
         margin: 2rem 0;
     }
 
     .contato__redes--lista {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        margin: 20px 120px;
     }
     
     .contato__imagem {
-        margin-top: 20px;
-        width: 30px;
-        height: 30px;
-    }    
+        display: flex;
+        width: 45px;
+        height: 45px;
+    }
 
     .contato__input {
         width: 80%;
@@ -81,9 +81,15 @@
         font-size: 14px;
         font-weight: 100;
     }
+
+    .contato__redes--item {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 2px;
+    }
 }    
 
-@media (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .formcontato {
         background-color: #03A9F5;
         border-radius: 7px;
@@ -100,8 +106,10 @@
     }
     
     .contato__imagem {
-        width: 80px;
-        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 65px;
+        height: 65px;
     }
 
     .contato__redes--lista {

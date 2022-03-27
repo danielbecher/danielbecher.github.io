@@ -55,7 +55,7 @@
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1024px) {
     .experiencia {
         display: flex;
         align-items: center;
