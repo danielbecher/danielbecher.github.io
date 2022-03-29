@@ -1,0 +1,42 @@
+.cabecalho {
+    margin: auto;
+    align-items: center;
+    width: 70%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.cabecalho__items {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__busca {    
+    padding: 8px 16px;  
+    position: static;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-color: #fff;
+    border-radius: 20px;
+    background: #F5F5F5;
+    background-image: url('/assets/img/busca.png');
+    background-position: calc(100% - 20px) center;
+	background-repeat: no-repeat;    
+}
+
+.cabecalho__botao {
+    width: 220px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    background-color: #fff;
+}
