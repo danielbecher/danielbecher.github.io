@@ -24,6 +24,20 @@
     align-items: center;
 }
 
+.produtos__vertudo--link {
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.produtos__vertudo--link:hover {
+    text-decoration: underline;
+}
+
+.produtos__vertudo::after {
+    content: url("/assets/img/seta.png");
+    margin: 0 0 0 12px;
+}
+
 .produtos__secao {
     display: flex;
     flex-direction: row;
