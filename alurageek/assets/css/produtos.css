@@ -13,6 +13,7 @@
 .produtos__titulo {
     font-size: 32px;
     line-height: 38px;
+    font-weight: bold;
     color: #464646;
 }
 
@@ -60,11 +61,12 @@
     margin: 8px 0;
 }
 
-.produtos__lista--link a {
+.produtos__lista--link a, .produitos__lista--link:visited {
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
     text-decoration: none;
+    color: #2A7AE4;
 }
 
 .produtos__lista--link:hover {

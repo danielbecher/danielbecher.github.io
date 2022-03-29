@@ -34,6 +34,8 @@
     height: 56px;
     margin: 7px 0;
     border: none;
+    border-bottom: solid 1px #C8C8C8;
+    padding: 3px 7px;
 }
 
 .rodape__textarea {
@@ -41,6 +43,9 @@
     height: 82px;
     margin: 7px 0;
     border: none;
+    border-bottom: solid 1px #C8C8C8;
+    resize: none;
+    padding: 5px 7px;
 }
 
 .rodape__button {
