@@ -40,3 +40,57 @@
     border-color: #2A7AE4;
     background-color: #fff;
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        margin: auto;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 7px 0;
+    }
+    
+    .cabecalho__items {
+        width: 80%;
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+    }
+
+    .cabecalho__busca {    
+        padding: 8px 16px;  
+        position: static;
+        width: 272px;
+        height: 35px;
+        border: none;
+        border-color: #fff;
+        border-radius: 20px;
+        background: #F5F5F5;
+        background-image: url('/assets/img/busca.png');
+        background-position: calc(100% - 20px) center;
+        background-repeat: no-repeat;    
+    }
+    
+    .cabecalho__botao {
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+        color: #2A7AE4;
+        border-color: #2A7AE4;
+        background-color: #fff;
+    }
+
+    .cabecalho__imagem {
+        width: 80%;
+        height: auto;
+    }
+    
+}

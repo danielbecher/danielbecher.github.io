@@ -1,0 +1,52 @@
+/* classe criada para fazer o background das duas seções */
+.produto__geral { 
+    background-color: #E5E5E5;
+} 
+
+.produto {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.produto__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.produto__imagem {
+    width: 560px;
+    height: 403px;
+}
+
+.produto__info {
+    display: flex;    
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.produto__nome {
+    font-weight: 500;
+    font-size: 52px;
+    padding: 10px 0
+}
+
+.produto__preco {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 0
+}
+
+.produto__descricao {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 0
+}
+
+.produtos {
+    padding-bottom: 50px;
+}

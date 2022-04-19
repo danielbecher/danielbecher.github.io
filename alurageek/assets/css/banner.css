@@ -1,7 +1,6 @@
 .banner {
     display: flex;
     padding: 20px 20px;
-    width: 100%;
     height: 350px;
     background-image: url('../img/banner-image.png');
     background-repeat: no-repeat;
@@ -41,4 +40,28 @@
     background-color: #2A7AE4;
     margin: 10px 0;
     border: none;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        display: flex;
+        height: 352px;
+    }
+    
+    .banner__div {
+        width: 90%;
+    }
+    
+    .banner__subtitulo {
+        font-size: 52px;
+    }
+    
+    .banner__texto {
+        font-size: 22px;
+    }
+    
+    .banner__botao {
+        width: 119px;
+        height: 40px;
+    }
 }

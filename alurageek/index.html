@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
-    <link rel="stylesheet" tyle="text/css" href="./assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" tyle="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" tyle="text/css" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" tyle="text/css" href="./assets/css/banner.css">
@@ -17,11 +17,11 @@
     <section class="cabecalho">
         <nav class="cabecalho__menu">
             <div class="cabecalho__logo">
-                <img class="cabecalho__imagem" src="./assets/img/logo.png">
+                <img class="cabecalho__imagem" id="cabecalho__imagem" src="./assets/img/logo.png">
             </div>
             <div class="cabecalho__items">
                 <input type="text" name="cabecalho__busca" class="cabecalho__busca" placeholder="O que deseja encontrar?">
-                <button name="cabecalho__botao" class="cabecalho__botao">Login</button>
+                <button name="cabecalho__botao" class="cabecalho__botao" id="cabecalho__botao">Login</button>
             </div>
         </nav>
     </section>
@@ -30,7 +30,7 @@
         <div class="banner__div">
             <h2 class="banner__subtitulo">Dezembro Promocional</h2>
             <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
-            <button class="banner__botao">Ver Consoles</button>
+            <a href="#consoles"><button class="banner__botao">Ver Consoles</button></a>
         </div>
     </section>
 
@@ -81,7 +81,7 @@
 
     <section class="produtos">
         <div class="produtos__informacoes">
-            <h3 class="produtos__titulo">Consoles</h3>
+            <h3 class="produtos__titulo" id="consoles">Consoles</h3>
             <p class="produtos__vertudo"><a class="produtos__vertudo--link" href="#">Ver tudo</a></p>
         </div>
         <div class="produtos__secao">
@@ -190,8 +190,8 @@
             <div class="rodape__contato">
                 <form action="#" class="rodape__form">
                     <p class="rodape__contato--titulo">Fale conosco</p>
-                    <input type="text" name="nome" placeholder="Nome" class="rodape__input">
-                    <textarea class="rodape__textarea" rows="5" cols="40" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                    <input type="text" name="nome" placeholder="Nome" class="rodape__input" maxlength="40" required>
+                    <textarea class="rodape__textarea" rows="5" cols="40" name="mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
                     <button class="rodape__button">Enviar mensagem</button>
                 </form>
             </div>
@@ -205,4 +205,5 @@
     </div>
     
 </body>
+    <script src="./assets/js/index.js"></script>
 </html>

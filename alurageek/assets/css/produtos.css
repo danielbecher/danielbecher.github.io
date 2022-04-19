@@ -72,3 +72,30 @@
 .produtos__lista--link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .produtos__lista:nth-child(5n), .produtos__lista:nth-child(6n) {
+        display: none;
+    }
+
+    .produtos__informacoes {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin: 20px auto 10px auto;
+        justify-content: space-between;
+    }
+
+    .produtos__secao {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .produtos__lista--imagem {
+        width: 160px;
+        height: 170px;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/banner.css">
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/addprodutos.css">
+    <link rel="stylesheet" tyle="text/css" href="./assets/css/rodape.css">
+</head>
+<body>
+
+    <section class="cabecalho">
+        <nav class="cabecalho__menu">
+            <div class="cabecalho__logo">
+                <img class="cabecalho__imagem" src="./assets/img/logo.png">
+            </div>
+            <div class="cabecalho__items">
+                <input type="text" name="cabecalho__busca" class="cabecalho__busca" placeholder="O que deseja encontrar?">
+                <button name="cabecalho__botao" class="cabecalho__botao">Login</button>
+            </div>
+        </nav>
+    </section>
+
+    <section class="addproduto">
+        <div class="addproduto__box">
+            <form class="addproduto__form">
+                <h2 class="addproduto__titulo">Adicionar novo produto</h2>
+                <div class="addproduto__upload">
+                    <div class="addproduto__arrasta" ondrop="dropHandler(event);">
+                        <img class="addproduto__icone" src="./assets/img/imagem.svg" />
+                        <p>Arraste para adicionar uma imagem ao produto</p>
+                    </div>
+                    <div class="addproduto__sobe">
+                        <span> Ou </span>
+                        <button class="addproduto__botaoupload" type="submit" accept="image/jpg,image/png" id="upload-file" multiple />Procure no seu computador</button>
+                    </div>
+                </div>
+                <div class="addproduto__campos">
+                    <input class="addproduto__input" name="nome" placeholder="Nome do produto">
+                    <input class="addproduto__input" name="preco" placeholder="Preço do produto">
+                    <input class="addproduto__input" name="descricao" placeholder="Descrição do produto">
+                    <button class="addproduto__button" name="botao">Adicionar produto</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="rodape">
+        <div class="rodape__miolo">
+
+            <div class="rodape__logo">
+                <img src="./assets/img/logo.png">
+            </div>
+
+            <div class="rodape__menu">
+                <ul class="rodape__lista">
+                    <li class="rodape__lista--link"><a href="#">Quem somos nós</a></li>
+                    <li class="rodape__lista--link"><a href="#">Política de privacidade</a></li>
+                    <li class="rodape__lista--link"><a href="#">Programa fidelidade</a></li>
+                    <li class="rodape__lista--link"><a href="#">Nossas lojas</a></li>
+                    <li class="rodape__lista--link"><a href="#">Quero ser franqueado</a></li>
+                    <li class="rodape__lista--link"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+
+            <div class="rodape__contato">
+                <form action="#" class="rodape__form">
+                    <p class="rodape__contato--titulo">Fale conosco</p>
+                    <input type="text" name="nome" placeholder="Nome" class="rodape__input">
+                    <textarea class="rodape__textarea" rows="5" cols="40" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                    <button class="rodape__button">Enviar mensagem</button>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="rodape__autor">
+        <p class="rodape__autor--texto">Desenvolvido por <a class="rodape__lista--link" href="https://becher.com.br/">Daniel Becher</a></p>
+        <p class="rodape__autor--texto">2022</p>
+    </div>
+    
+</body>
+</html>
