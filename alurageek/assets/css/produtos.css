@@ -99,3 +99,30 @@
         height: 170px;
     }
 }
+
+@media (max-width: 375px) {
+    .produtos__lista:nth-child(2n), .produtos__lista:nth-child(2n) {
+        display: none;
+    }
+
+    .produtos__informacoes {
+        display: flex;
+        flex-direction: row;
+        width: 97%;
+        margin: 20px auto 10px auto;
+        justify-content: space-between;
+    }
+
+    .produtos__secao {
+        display: flex;
+        flex-direction: row;
+        width: 97%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .produtos__lista--imagem {
+        width: 160px;
+        height: 165px;
+    }
+}

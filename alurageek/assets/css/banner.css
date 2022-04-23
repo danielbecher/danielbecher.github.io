@@ -65,3 +65,29 @@
         height: 40px;
     }
 }
+
+@media (max-width: 375px) {
+    .banner {
+
+        width: 100%;
+        height: auto;
+    }
+    
+    .banner__div {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .banner__subtitulo {
+        font-size: 26px;
+    }
+    
+    .banner__texto {
+        font-size: 14px;
+    }
+    
+    .banner__botao {
+        width: 119px;
+        height: 40px;
+    }
+}
