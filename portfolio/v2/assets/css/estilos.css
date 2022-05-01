@@ -1,0 +1,169 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Variáveis */
+:root {
+    --cor-fundo-cabecalho: #0f1626;
+    --cor-cabecalho--links: #f5f5f5;
+    --cor-cabecalho--links-hover: #ab987a;
+    --cor-fundo-principal: #ccc;
+    --cor-cabecalho--titulo: #fff;
+    --cor-fundo-card: #e5ecfa;
+    --cor-fundo-formacao: rgb(3, 26, 39);
+    --cor-fundo-cardformac: rgb(239, 246, 247);
+}
+
+/* Configs Gerais */
+
+.seta__link{
+    font-size: 50px;
+    color: black;
+}
+
+.seta__link:hover {
+    color: red;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    background-color: var(--cor-fundo-cabecalho);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.port__barranav {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.port__barranav-logo {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.port__barranav-foto {
+    width: 50px;
+    height: 50px;
+}
+
+.port__barranav-titulo {
+    color: var(--cor-cabecalho--titulo);
+    font-size: 30px;
+    padding: 0 40px;
+}
+
+.port__barranav-botoes {
+    width: 60%;
+}
+
+.port__barranav-botoes a {
+    text-decoration: none;
+    color: var(--cor-cabecalho--links);
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+
+.port__barranav-botoes a:hover {
+    color: var(--cor-cabecalho--links-hover);
+    font-weight: 700px;
+}
+
+.port_barranav-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.port__barranav-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Principal */
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor-fundo-principal);
+    height: 100vh;
+    width: auto;
+}
+
+.port__princ-box {
+    display: flex;
+    align-items: center;
+}
+
+.port__princ-foto {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.port__princ-miolo {    
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.port__princ-card {
+    background-color: var(--cor-fundo-card);
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    border: 1px solid #0f1626;
+    border-radius: 10px;        
+    padding: 30px 30px;
+}
+
+.port__princ-card ul {
+    display: flex;
+    list-style: none;
+}
+
+.port__princ-redessociais {
+    width: 50px;
+    height: 50px;
+    padding: 10px 12px;
+}
+
+/* Formação */
+
+.formacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor-fundo-formacao);
+    height: 100vh;
+    width: auto;
+}
+
+.port__formac-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.port__formac-card {
+    width: 20%;
+    background-color: var(--cor-fundo-cardformac);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+

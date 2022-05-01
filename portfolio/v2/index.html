@@ -5,9 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Becher - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <div class="port__barranav">
+            <div class="port__barranav-logo">
+                <a href="index.html"><img class="port__barranav-foto"src="./assets/img/logo.jpg"></a>
+                <h1 class="port__barranav-titulo">Daniel Becher</h1>
+            </div>
+            <div class="port__barranav-botoes">
+                <ul class="port__barranav-lista">
+                    <li class="port__barranav-items"><a href="#" class="port__barranav-links">Home</a></li>
+                    <li class="port__barranav-items"><a href="#" class="port__barranav-links">Sobre</a></li>
+                    <li class="port__barranav-items"><a href="#" class="port__barranav-links">Carreira</a></li>
+                    <li class="port__barranav-items"><a href="#" class="port__barranav-links">Projetos</a></li>
+                    <li class="port__barranav-items"><a href="#" class="port__barranav-links">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="principal" id="principal">
+        <div class="port__princ-box">
+            <div class="port__princ-foto">
+                <img src="./assets/img/foto.png" />
+            </div>
+            <div class="port__princ-miolo">
+                <div class="port__princ-card">
+                    <span><h2>Olá!</h2>Meu nome é Daniel Becher, tenho </span><span id="idade" /> 0 </span><span> anos e sou da área de TI. Trabalho desde os 14, mas há </span><span id="tempo"> 0 </span><span> trabalho com tecnologia.</span>
+                    <span>Comecei na área de redes e infra-estrutura, como você poderá conferir abaixo no meu <i>Curriculum vitae</i>, e recentemente estou fazendo uma transição de carreira (ou agragação dela) para a área de desenvolvimento.</span>
+                    <p>Eu vou deixar aqui meu resumo das redes sociais caso precise de um contato rápido, mas se você rolar o site pra baixo verá mais detalhadamente minhas informações profissionais.</p>
+                    <div>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/danielbecher" class="port__princ-links"><img src="./assets/img/linkedin.png" alt="Linkedin" class="port__princ-redessociais"></a></li>
+                            <li><a href="https://github.com/danielbecher" class="port__princ-links"><img src="./assets/img/github.png" alt="Github" class="port__princ-redessociais"></a></li>
+                            <li><a href="https://instagram.com/daniel.becher" class="port__princ-links"><img src="./assets/img/instagram.png" alt="Instagram" class="port__princ-redessociais"></a></li>
+                            <li><a href="https://facebook.com/odanielbecher" class="port__princ-links"><img src="./assets/img/facebook.png" alt="Facebook" class="port__princ-redessociais"></a></li>
+                            <li><a href="https://twitter.com/becher" class="port__princ-links"><img src="./assets/img/twitter.png" alt="Twitter" class="port__princ-redessociais"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="port__princ-seta">
+                <a class="seta__link" href="#formacao"><i class="fa-solid fa-circle-down"></i></a>
+            </div>
+        </div>
+    </main>
+    <section class="formacao" id="formacao">
+        <div class="port__formac-box">
+            <div class="port__formac-card">
+                <h2>Acadêmica</h2>
+                <h3>Superior em Análise e Desenvolvimento de Sistemas</h3>
+                <p>Atualmente estou cursando o Tecnológico em ADS na Universidade Cruzeiro do Sul, na modalidade EAD.</p>
+            </div>
+            
+            <div class="port__formac-card">
+                <h2>One</h2>
+                <h3>Alura</h3>
+                <p>Estou participando da Formação One (Oracle Next Education), uma parceria entre a Oracle a Alura com cursos de soft-kills, html, css, javascript e java.</p>
+            </div>
+
+            <div class="port__formac-card">
+                <h2>Hiring Coders #3</h2>
+                <h3>Gama Academy</h3>
+                <p>Recentemente fui selecionado para o Hiring Coders #3, este já é uma parceria entre a Gama Academy e a VTEX. Inclui módulos de HTML, CSS, Javascript, React, Node e VTEX IO.</p>
+            </div>
+        </div>
+    <a class="seta__link" href="#principal"><i class="fa-solid fa-circle-up"></i></a>
+    <a class="seta__link" href="#contato"><i class="fa-solid fa-circle-down"></i></a>
+    </section>
+    <script src="https://kit.fontawesome.com/be92ac0d3d.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/home.js"></script>
 </body>
 </html>
