@@ -129,11 +129,16 @@
     border: 1px solid #0f1626;
     border-radius: 10px;        
     padding: 30px 30px;
+    line-height: 1.5em;
 }
 
 .port__princ-card ul {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     list-style: none;
+    margin: 0 55px 0 0;
+
 }
 
 .port__princ-redessociais {
@@ -164,6 +169,15 @@
     background-color: var(--cor-fundo-cardformac);
     border: 1px solid #000;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 10px 15px;
+    line-height: 1.5em;
+}
+
+.cruzeirodosul::after {
+    content: url('/assets/img/cruzeirodosul.png');
+    display: block;
+    position: relative;
+    left: 13.5rem;
+    top: -16rem;
 }
 
